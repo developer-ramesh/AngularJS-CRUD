@@ -1,2 +1,2 @@
 # AngularJS-CRUD
-Add data in database table using AngularJs with Mysql
+There is a simple example using AngularJs with Mysql and Routes.
