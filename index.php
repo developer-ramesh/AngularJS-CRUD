@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>::Learning AngularJs::</title>
-    <base href="/AngularJs/">
+    <base href="/AngularJS-CRUD/">
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/angular-route.js"></script>
     <script type="text/javascript" src="js/commonController.js"></script>
@@ -61,9 +61,9 @@
 	<h1>Dynamic Routing Example</h1>
 	<br />
        
-	<a  href="/AngularJs/home">Home</a>
-	<a  href="/AngularJs/about">About</a>
-	<a  href="/AngularJs/contact">Contact</a>
+	<a  href="/AngularJS-CRUD/home">Home</a>
+	<a  href="/AngularJS-CRUD/about">About</a>
+	<a  href="/AngularJS-CRUD/contact">Contact</a>
     
 	<br />
 	<br />

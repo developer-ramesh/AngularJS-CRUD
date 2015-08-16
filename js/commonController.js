@@ -31,7 +31,7 @@ app.controller("fn", function($scope,$http) {
     
      $scope.get_data = function() {
 
-        $http.get("http://localhost/AngularJs/server-file.php?action=get_data").success(function(data)
+        $http.get("http://localhost/AngularJS-CRUD/server-file.php?action=get_data").success(function(data)
         {
             $scope.dat = data;    
 
@@ -39,7 +39,7 @@ app.controller("fn", function($scope,$http) {
      }
     
      $scope.add_submit = function() {
-        $http.post('http://localhost/AngularJs/server-file.php?action=add_data', 
+        $http.post('http://localhost/AngularJS-CRUD/server-file.php?action=add_data', 
             {
                 'name'     : $scope.name, 
                 'phone'    : $scope.phone, 
@@ -54,7 +54,7 @@ app.controller("fn", function($scope,$http) {
     
     $scope.data_delete = function(index) {  
      
-      $http.post('http://localhost/AngularJs/server-file.php?action=delete_data', 
+      $http.post('http://localhost/AngularJS-CRUD/server-file.php?action=delete_data', 
             {
                 'prod_index'     : index
             }
@@ -68,7 +68,7 @@ app.controller("fn", function($scope,$http) {
     $scope.data_edit = function(index) {  
       $scope.update_prod = true;
       $scope.add_prod = false;
-      $http.post('http://localhost/AngularJs/server-file.php?action=edit_data', 
+      $http.post('http://localhost/AngularJS-CRUD/server-file.php?action=edit_data', 
             {
                 'prod_index'     : index
             }
@@ -84,7 +84,7 @@ app.controller("fn", function($scope,$http) {
     
     $scope.update_data = function() {
         //return false;
-        $http.post('http://localhost/AngularJs/server-file.php?action=update_data', 
+        $http.post('http://localhost/AngularJS-CRUD/server-file.php?action=update_data', 
                     {
                         'id'            : $scope.id,
                         'name'          : $scope.name, 
